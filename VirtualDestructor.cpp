@@ -7,6 +7,7 @@ public:
     {
         std::cout << "Constructing base \n";
     }
+    //using virtual guarantees that the object of the derived class is destructed properly
     virtual ~base()
     {
         std::cout << "Destructing base \n";
